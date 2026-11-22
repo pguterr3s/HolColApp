@@ -1,4 +1,4 @@
-package main.java.si.holcol.dao;
+package si.holcol.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

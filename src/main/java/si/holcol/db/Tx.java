@@ -1,4 +1,4 @@
-package main.java.si.holcol.db;
+package si.holcol.db;
 
 import java.sql.Connection;
 import java.sql.SQLException;

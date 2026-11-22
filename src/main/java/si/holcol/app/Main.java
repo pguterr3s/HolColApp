@@ -1,13 +1,15 @@
-package main.java.si.holcol.app;
+package si.holcol.app;
 
 
-import main.java.si.holcol.dao.AtividadeDAO;
-import main.java.si.holcol.dao.ClienteDAO;
-import main.java.si.holcol.dao.FaturacaoDAO;
-import main.java.si.holcol.dao.ServicoDAO;
-import main.java.si.holcol.db.ConnectionFactory;
-import main.java.si.holcol.db.Tx;
 import si.holcol.dao.AjudaDAO;
+import si.holcol.dao.AtividadeDAO;
+import si.holcol.dao.ClienteDAO;
+import si.holcol.dao.ClienteDAO.Contacto; // <-- Adicionado para expor o registo aninhado
+import si.holcol.dao.ClienteDAO.Morada;   // <-- Adicionado para expor o registo aninhado
+import si.holcol.dao.FaturacaoDAO;
+import si.holcol.dao.ServicoDAO;
+import si.holcol.db.ConnectionFactory;
+import si.holcol.db.Tx;
 
 import java.math.BigDecimal;
 import java.sql.Connection;
